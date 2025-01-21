@@ -54,6 +54,7 @@
     "eslint": "eslint src",
     "deploy": "gh-pages -d examples/dist"
   },
+  "type": "module",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
